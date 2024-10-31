@@ -1,0 +1,144 @@
+.rockval-wrap {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.rockval-wrap h1, .rockval-wrap h2 {
+  color: #001f04;
+}
+
+.rockval-wrap h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.rockval-wrap h2 {
+  margin-top: 40px;
+}
+
+.rockval-wrap a {
+  text-decoration: none;
+}
+
+.rockval-wrap a:hover {
+  text-decoration: underline;
+}
+
+.rockval-wrap a.rockval-issue-link {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.rockval-wrap .rockval-error {
+  background-color: #ffebe8;
+  border-left: 4px solid #d63638;
+  padding: 12px;
+}
+
+.rockval-wrap p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+p.rockval-no-issues {
+  color: #026934;
+  background-color: white;
+
+  font-size: 1.2em !important;
+  margin: 20px 0;
+  margin-bottom: 50px;
+  border: 1px solid #018d44;
+  border-left: 4px solid #018d44;
+  padding: 8px 10px;
+}
+
+.rockval-tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.rockval-tag {
+  background-color: #f0f0f0;
+  padding: 2px 10px;
+  border: 1px solid #ddd;
+  border-radius: 15px; 
+  font-size: 12px;
+  font-weight: 300;
+  color: #333;
+}
+
+.rockval-counters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.rockval-counter-box {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 0;
+  margin-right: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .rockval-counters {
+    flex-direction: column;
+  }
+
+  .rockval-counter-box {
+    margin-bottom: 25px;
+  }
+}
+
+.rockval-counter-number {
+  font-family: monospace;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.rockval-counter-label {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666;
+}
+
+.rockval-bg-error {
+  border-color: #d63638;
+  color: #d63638;
+}
+
+.rockval-bg-warning {
+  border-color: #d47500;
+  color: #d47500;
+}
+
+.rockval-bg-success {
+  border-color: #028f46;
+  color: #028f46;
+}
+
+.rockval-report-details {
+  font-size: 1.2em !important;
+  color: #333;
+  margin: 20px 0;
+  border-left: 4px solid #5d5b5b;
+  padding-left: 10px;
+}
+
+td.rockval-issue-count {
+  text-align: center;
+  vertical-align: top;
+  width: 45px;
+  font-size: 1.3em;
+  font-weight: 600;
+  padding-top: 6px;
+}
